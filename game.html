@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTIS255 - Project - 2025</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+    <section id="members_section">
+        <div class="members">
+            <div id="members_title">Project Members</div>
+            <div class="member">
+                <img src="./img/22302016.jpeg">
+                <div class="member_right">
+                    <div class="member_name">
+                        Yusuf Yarımbaş
+                    </div>
+                    <div class="member_section">
+                        Section : 04
+                    </div>
+                    <div class="member_id">
+                        22302016
+                    </div>
+                </div>
+            </div>
+            <div class="member">
+                <img src="./img/22403029.png">
+                <div class="member_right">
+                    <div class="member_name">
+                        Adil Eren Aydoğan
+                    </div>
+                    <div class="member_section">
+                        Section : 04
+                    </div>
+                    <div class="member_id">
+                        22403029
+                    </div>
+                </div>
+            </div>
+            <div class="member">
+                <img src="./img/22301857.jpeg">
+                <div class="member_right">
+                    <div class="member_name">
+                        Halis Mert Altın
+                    </div>
+                    <div class="member_section">
+                        Section : 01
+                    </div>
+                    <div class="member_id">
+                        22301857
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="countdown">
+        <div id="countdown_num">3</div>
+    </div>
+
+    <div id="gameArea">
+        <div class="statistics">
+            <div class="statistic">
+                <span class="statisticTitle">HI-SCORE</span>
+                <span id="hiScore">0</span>
+            </div>
+
+            <div class="statistic">
+                <span class="statisticTitle">SCORE</span>
+                <span id="normalScore">0</span>
+            </div>
+
+            <div class="statistic">
+                <span class="statisticTitle">TIME</span>
+                <span id="timeRemaining">10</span>
+            </div>
+        </div>
+
+        <div id="gameGrid">
+            <div id="hintMessage">Tap the black tiles!</div>
+        </div>
+
+
+        <div id="scoreBarBottom">
+            <div id="scoreBottom"></div>
+        </div>
+
+        <div id="pressF5">Press F5 to play again</div>
+        
+        <div id="endTextSection">
+            <div id="endText">Time is up!</div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
